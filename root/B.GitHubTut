@@ -1,6 +1,6 @@
 How to Fork a GitHub Repository and Start Contributing
 Overview
-This step-by-step tutorial shows 9th‑grade students how to create a fork of the repository at https://github.com/MrTeuters22/CHS26, clone it to their computer, make changes, and submit those changes back using a pull request.
+This step-by-step tutorial shows 9th‑grade students how to create a fork of the repository at https://github.com/MrTeuters22/CHSFAL26, clone it to their computer, make changes, and submit those changes back using a pull request.
 What you need
 
 A computer with internet access
@@ -19,7 +19,7 @@ Go to https://github.com and sign in with your username and password.
 
 Open the repository
 
-In your browser, visit https://github.com/MrTeuters22/CHS26.
+In your browser, visit https://github.com/MrTeuters22/CHSFAL26.
 
 
 
@@ -37,8 +37,8 @@ Local (recommended for multiple or larger changes):
 
 Click the green "Code" button on your fork page and copy the URL (choose HTTPS).
 Open a terminal/command prompt on your computer.
-Run: git\ clone\ https://github.com/your-username/CHS26.git
-Change into the project folder: cd\ CHS26
+Run: git\ clone\ https://github.com/MrTeuters22/CHSFAL26.git
+Change into the project folder: cd\ CHSFAL26
 
 
 
@@ -90,7 +90,7 @@ git\ push\ --set-upstream\ origin\ my-feature-branch
 Create a Pull Request (PR)
 
 On GitHub, go to your fork. You’ll see a prompt to compare & pull request for your pushed branch—click it.
-Ensure the base repository is MrTeuters22/CHS26 and the base branch is usually main (or as instructed).
+Ensure the base repository is MrTeuters22/CHSFAL26 and the base branch is usually main (or as instructed).
 Write a clear title and description explaining what you changed and why.
 Submit the pull request.
 

@@ -1,9 +1,9 @@
 Create and Test a Simple "About Me" Webpage Using GitHub Desktop and G.HTMLTut
-Goal: Step-by-step instructions for creating, editing, and testing a simple "About Me" webpage stored in a file named G.HTMLTut in your cloned fork of https://github.com/MrTeuters22/CHS26 using GitHub Desktop. Clear, age-appropriate steps for 9th‑grade students.
+Goal: Step-by-step instructions for creating, editing, and testing a simple "About Me" webpage stored in a file named G.HTMLTut in your cloned fork of https://github.com/MrTeuters22/CHSFAL26 using GitHub Desktop. Clear, age-appropriate steps for 9th‑grade students.
 Before you begin
 
 You need GitHub Desktop installed and signed in.
-You need a fork of https://github.com/MrTeuters22/CHS26 (teacher or repo owner likely already forked it to your account).
+You need a fork of https://github.com/MrTeuters22/CHSFAL26 (teacher or repo owner likely already forked it to your account).
 You should have cloned your fork to your computer using GitHub Desktop.
 Locate the repository folder on your computer (GitHub Desktop shows the local path).
 
@@ -13,7 +13,7 @@ Procedure
 Open the repository in GitHub Desktop
 
 Launch GitHub Desktop.
-In the list of repositories, select your fork of CHS26.
+In the list of repositories, select your fork of CHSFAL26.
 Confirm the current branch is main (or the branch your teacher asked you to use).
 
 

@@ -23,15 +23,15 @@ Compile: Convert Java source code to bytecode (class files) using the Java compi
 Run: Execute compiled Java bytecode with the Java runtime.
 Step 1 — Fork the repository (if not already forked)
 
-Open your web browser and go to https://github.com/MrTeuters22/CHS26.
+Open your web browser and go to https://github.com/MrTeuters22/CHSFAL26.
 Click the "Fork" button (top-right). This creates a copy under your GitHub account.
-Confirm the fork is available at https://github.com/your-username/CHS26 (replace your-username).
+Confirm the fork is available at https://github.com/your-username/CHSFAL26 (replace your-username).
 
 Step 2 — Clone the fork to your computer with GitHub Desktop
 
 Open GitHub Desktop and sign in to your GitHub account.
 In GitHub Desktop, choose File > Clone repository.
-Select the "GitHub.com" tab, find the fork you created (your-username/CHS26), and click Clone.
+Select the "GitHub.com" tab, find the fork you created (your-username/CHSFAL26), and click Clone.
 Choose a local path where you want the project folder to live and click Clone. GitHub Desktop downloads the repo to that folder.
 
 Step 3 — Locate E.JavaTut file in the cloned folder
@@ -107,7 +107,7 @@ Click Push origin to upload the commit to your fork on GitHub.
 
 Step 10 — Verify on GitHub
 
-Go to your fork on GitHub (https://github.com/your-username/CHS26).
+Go to your fork on GitHub (https://github.com/your-username/CHSFAL26).
 Open the file E.java in the web interface to confirm your changes appear.
 Troubleshooting tips
 

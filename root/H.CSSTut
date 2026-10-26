@@ -4,14 +4,14 @@ This procedural guide shows how to open your cloned repository with GitHub Deskt
 Before you begin (requirements)
 
 Your computer with GitHub Desktop installed and signed in.
-The repository https://github.com/MrTeuters22/CHS26 already cloned (or forked and cloned) to your machine.
+The repository https://github.com/MrTeuters22/CHSFAL26 already cloned (or forked and cloned) to your machine.
 Basic knowledge of HTML and CSS from the previous activity.
 A text editor (VS Code, Notepad++, or similar) and a modern web browser (Chrome, Edge, Firefox).
 
 Step 1 — Open the repository in GitHub Desktop
 
 Launch GitHub Desktop.
-In the left panel, find and select the CHS26 repository you cloned (or choose File → Add Local Repository if not yet added).
+In the left panel, find and select the CHSFAL26 repository you cloned (or choose File → Add Local Repository if not yet added).
 Confirm the branch is the one you want (usually main or the branch you created).
 
 Step 2 — Open H.CSSTut in your editor

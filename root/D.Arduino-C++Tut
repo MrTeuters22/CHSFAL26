@@ -25,7 +25,7 @@ Step 1 — Clone the fork with GitHub Desktop
 
 Open GitHub Desktop.
 In the app, choose File > Clone Repository.
-Select the "URL" or "GitHub.com" tab and find your fork of the repo (the one you cloned from https://github.com/MrTeuters22/CHS26). If your fork is listed under "Your repositories", select it.
+Select the "URL" or "GitHub.com" tab and find your fork of the repo (the one you cloned from https://github.com/MrTeuters22/CHSFAL26). If your fork is listed under "Your repositories", select it.
 Choose a Local Path where the repository will be stored (make note of this path).
 Click "Clone".
 Confirm the repository appears in GitHub Desktop's current repository list.

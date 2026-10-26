@@ -1,12 +1,12 @@
 Python Terminal Game: Guess the Number with High Score
 
-Overview This tutorial shows you step-by-step how to write and run a terminal (command-line) Python game called "Guess the Number." The game chooses a random number and the player tries to guess it. The program records a high score (the fewest guesses) in a file named C.PythonTUT inside your cloned fork of the repository https://github.com/MrTeuters22/CHS26 and demonstrates how to use GitHub Desktop to clone the fork and open the project. Instructions assume you have Python installed (Python 3.7+ recommended) and GitHub Desktop.
+Overview This tutorial shows you step-by-step how to write and run a terminal (command-line) Python game called "Guess the Number." The game chooses a random number and the player tries to guess it. The program records a high score (the fewest guesses) in a file named C.PythonTUT inside your cloned fork of the repository https://github.com/MrTeuters22/CHSFAL26 and demonstrates how to use GitHub Desktop to clone the fork and open the project. Instructions assume you have Python installed (Python 3.7+ recommended) and GitHub Desktop.
 
 Before you begin (setup)
 
 Install Python from python.org and make sure the python (or python3) command works in your terminal.
 Install GitHub Desktop and sign in.
-Fork the repository https://github.com/MrTeuters22/CHS26 on GitHub (use your GitHub account).
+Fork the repository https://github.com/MrTeuters22/CHSFAL26 on GitHub (use your GitHub account).
 Open GitHub Desktop, sign in, then use "File > Clone repository" and choose your fork. Clone it to a local folder.
 Inside the cloned folder, create or open a file named C.PythonTUT (this will store the high score). If it does not exist, the program will create it.
 Files you will edit / create
@@ -87,8 +87,8 @@ play_game() runs one round: chooses a random number, takes guesses, and returns 
 main() shows the current high score, runs rounds, updates high score if the player used fewer guesses, and asks to play again.
 Run the game in terminal:
 Open your terminal and change directory to the cloned repo folder. For example:
-On Windows (PowerShell or CMD): cd "C:\Users\<YourName>\path\to\CHS26"
-On macOS / Linux: cd /Users/<YourName>/path/to/CHS26
+On Windows (PowerShell or CMD): cd "C:\Users\<YourName>\path\to\CHSFAL26"
+On macOS / Linux: cd /Users/<YourName>/path/to/CHSFAL26
 Run:
 python guess_number.py or python3 guess_number.py
 Follow prompts. After a new best score, C.PythonTUT will contain a single integer representing the fewest guesses.
