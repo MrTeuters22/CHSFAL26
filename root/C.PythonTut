@@ -4,13 +4,14 @@ Overview This tutorial shows you step-by-step how to write and run a terminal (c
 
 Before you begin (setup)
 
-Install Python from python.org and make sure the python (or python3) command works in your terminal.
-Install GitHub Desktop and sign in.
-Fork the repository https://github.com/MrTeuters22/CHSFAL26 on GitHub (use your GitHub account).
+If you haven't already.
+Install GitHub Desktop and sign in.Fork the repository https://github.com/MrTeuters22/CHSFAL26 on GitHub (use your GitHub account).
 Open GitHub Desktop, sign in, then use "File > Clone repository" and choose your fork. Clone it to a local folder.
 Inside the cloned folder, create or open a file named C.PythonTUT (this will store the high score). If it does not exist, the program will create it.
-Files you will edit / create
+Install Python3 from Self Service+ or from python.org and make sure the python (or python3) command works in your terminal.
 
+
+Files you will edit / create
 A Python script file (e.g., guess_number.py) placed inside your cloned repo.
 The high-score file: C.PythonTUT (plain text).
 Step-by-step code (procedural)
@@ -18,7 +19,7 @@ Step-by-step code (procedural)
 Create a new Python file named guess_number.py inside your cloned repository folder.
 
 Copy this code into guess_number.py and save:
-import random
+import random #packages 
 import os
 
 HIGH_SCORE_FILE = 'C.PythonTUT'
@@ -79,6 +80,7 @@ def main():
 if __name__ == '__main__':
     main()
 
+
 How the code works (brief):
 HIGH_SCORE_FILE is the filename C.PythonTUT.
 read_high_score() reads and returns the stored high score as an integer or None.
@@ -86,9 +88,10 @@ write_high_score(score) overwrites the high score file with the new best score.
 play_game() runs one round: chooses a random number, takes guesses, and returns the number of guesses used.
 main() shows the current high score, runs rounds, updates high score if the player used fewer guesses, and asks to play again.
 Run the game in terminal:
-Open your terminal and change directory to the cloned repo folder. For example:
+Open your terminal (menu found at the top of the screen) and change directory to the cloned repo folder. For example:
 On Windows (PowerShell or CMD): cd "C:\Users\<YourName>\path\to\CHSFAL26"
-On macOS / Linux: cd /Users/<YourName>/path/to/CHSFAL26
+On macOS / Linux: cd /Users/<YourName>/path/to/CHSFAL26/Student_<X>
+Click on Run and Debug on the far left.  Select create json file.  Go back to py file while on the debug and run select and run and wait.
 Run:
 python guess_number.py or python3 guess_number.py
 Follow prompts. After a new best score, C.PythonTUT will contain a single integer representing the fewest guesses.
