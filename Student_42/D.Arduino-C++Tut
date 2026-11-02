@@ -54,52 +54,33 @@ Ground rail must connect to Arduino GND.
 Step 4 — The C++ (Arduino) program — simple timed stoplight Open D.Arduino-C++Tut in Arduino IDE. If the file is empty or different, paste this code into the IDE (replace pin numbers if you wired differently). All math and any expressions are wrapped appropriately.
 
 // Pin definitions
-// Pin definitions
-const int RED = 8;
 const int RED = 8;
 const int YELLOW = 9;
-const int YELLOW = 9;
 const int GREEN = 10;
-const int GREEN = 10;
+
 void setup() {
-void setup() {
- pinMode(RED, OUTPUT);
- pinMode(RED, OUTPUT);
- pinMode(YELLOW, OUTPUT);
- pinMode(YELLOW, OUTPUT);
- pinMode(GREEN, OUTPUT);
- pinMode(GREEN, OUTPUT);
+  pinMode(RED, OUTPUT);
+  pinMode(YELLOW, OUTPUT);
+  pinMode(GREEN, OUTPUT);
 }
-}
+
 void loop() {
-void loop() {
- // Green on
- // Green on
- digitalWrite(GREEN, HIGH);
- digitalWrite(GREEN, HIGH);
- digitalWrite(YELLOW, LOW);
- digitalWrite(YELLOW, LOW);
- digitalWrite(RED, LOW);
- digitalWrite(RED, LOW);
- delay(5000); // Green for 5 seconds
- delay(5000); // Green for 5 seconds
- // Yellow on
- // Yellow on
- digitalWrite(GREEN, LOW);
- digitalWrite(GREEN, LOW);
- digitalWrite(YELLOW, HIGH);
- digitalWrite(YELLOW, HIGH);
- delay(2000); // Yellow for 2 seconds
- delay(2000); // Yellow for 2 seconds
- // Red on
- // Red on
- digitalWrite(YELLOW, LOW);
- digitalWrite(YELLOW, LOW);
- digitalWrite(RED, HIGH);
- digitalWrite(RED, HIGH);
- delay(5000); // Red for 5 seconds
- delay(5000); // Red for 5 seconds
-}
+  // Green on
+  digitalWrite(GREEN, HIGH);
+  digitalWrite(YELLOW, LOW);
+  digitalWrite(RED, LOW);
+  delay(5000); // Green for 5 seconds
+
+  // Yellow on
+  digitalWrite(GREEN, LOW);
+  digitalWrite(YELLOW, HIGH);
+  digitalWrite(RED, LOW);
+  delay(2000); // Yellow for 2 seconds
+
+  // Red on
+  digitalWrite(YELLOW, LOW);
+  digitalWrite(RED, HIGH);
+  delay(5000); // Red for 5 seconds
 }
 Notes:
 

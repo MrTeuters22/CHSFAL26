@@ -2,20 +2,20 @@ Quick Guide: Learning Important Coding Languages (Beyond Python, C++, Java, Type
 Purpose: A short, student-friendly procedural tutorial that shows how to find, open, and study a file named I.OtherLangTut from your cloned fork of the repository https://github.com/MrTeuters22/CHSFAL26 using GitHub Desktop, and gives an overview of several other important programming languages you might study. Intended for 9th-grade students. Keep this page for reference as you explore new languages.
 Before you begin
 
-Make sure you have GitHub Desktop installed and you have already cloned your fork of https://github.com/MrTeuters22/CHSFAL26.
-Confirm the file I.OtherLangTut exists in your forked repository directory. If not, check the repository on GitHub.com and pull or fetch changes in GitHub Desktop.
+Make sure GitHub Desktop is installed and that you have already cloned your fork of https://github.com/MrTeuters22/CHSFAL26.
+Confirm that the file named I.OtherLangTut exists in your forked repository folder. If it does not, check GitHub.com and pull or fetch the latest changes in GitHub Desktop.
 
 Step-by-step: Open and read I.OtherLangTut with GitHub Desktop
 
-Open GitHub Desktop and select your forked repository from the left panel.
-Click Repository > Open in Explorer (Windows) or Repository > Show in Finder (Mac) to view the repository folder on your computer.
-In the folder, locate the file named I.OtherLangTut.
-Right-click the file and choose “Open with” and select a plain-text editor (e.g., Notepad, VS Code, or TextEdit in plain-text mode).
-Read the contents carefully. If the file contains instructions or code examples, make notes or copy code samples into a separate notes file for practice.
-If you make changes, save them locally, then use GitHub Desktop to commit and push your changes:
-
-In GitHub Desktop, stage your changes by entering a short commit message.
-Click Commit to main (or the current branch), then Push origin to send changes to your GitHub fork.
+1. Open GitHub Desktop and select your forked repository from the left panel.
+2. Click Repository > Open in Explorer (Windows) or Repository > Show in Finder (Mac) to open the repository folder on your computer.
+3. In that folder, locate the file named I.OtherLangTut.
+4. Right-click the file, choose “Open with,” and select a plain-text editor such as Notepad, VS Code, or TextEdit in plain-text mode.
+5. Read the contents carefully. If the file includes instructions or code examples, take notes or copy code samples into a separate notes file for practice.
+6. If you make changes, save them locally, then use GitHub Desktop to commit and push them:
+   - Stage your changes by entering a short commit message.
+   - Click Commit to main (or the current branch).
+   - Click Push origin to send your changes to your GitHub fork.
 
 
 
@@ -82,7 +82,7 @@ Strength: Readable syntax, great for quick development and beginners.
 PHP
 
 Use: Server-side web development, content-driven sites.
-Quick start: Put  in a .php file and run via a local server (e.g., XAMPP).
+Quick start: Create a file named hello.php with <?php echo "Hello"; ?> and run it through a local server (for example, XAMPP or a PHP-enabled environment).
 Strength: Wide hosting support, powers many web platforms.
 
 
@@ -139,6 +139,9 @@ Concurrency: Running multiple computations at the same time (e.g., threads, goro
 Garbage collector: Runtime system that automatically reclaims unused memory.
 Type system: Rules that assign types (like number, string) to values and variables.
 
-Create a Summary with 3 questions you have about coding languages here:
+Create a summary with 3 questions you have about coding languages:
+1. Which language is best for building websites and apps?
+2. How is a systems language like Rust different from a beginner-friendly language like Python?
+3. What should I learn next after I understand variables, loops, and functions?
 
-Note: If you want, provide the I.OtherLangTut file contents from your cloned repo (paste text here) and this guide can be adapted to include specific excerpts or exercises directly tied to that file.
+Note: If you want, you can paste the contents of the I.OtherLangTut file from your cloned repo here and this guide can be adapted to include specific excerpts or exercises tied directly to that file.
